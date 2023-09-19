@@ -27,16 +27,25 @@ pip install -r requirements.txt
 The above line will install **NumPy, Arcade, Pandas and TensorFlow** on your machine, all of which necessary to run the project.
 
 ## Quick run
-If you are already familiar with the project and don't want to go through an in-depth analysis, follow the instructions below:
+If you are already familiar with the project and don't want to go through an in-depth analysis, run the following commands in your terminal:  
 
-1. Run `TrainSnake.py` (to collect data and create dataset)
-   
+1. To collect data and create the dataset:
+   ```
+   python TrainSnake.py
+   ```
    *Note 1: Make sure to press `Esc` button to quit the program. Any other method of quiting will result in not creating the dataset.*
    
-   *Note 2: The default configuration of this program will create 1 data sample per 0.5 seconds.*
+   *Note 2: The default configuration of this program will create 2 data samples per second.*
 
-2. Run `modelConstruction.py` (to create the ANN model)
-3. Run `TestSnake.py` (to see the result)
+2. To build the ANN model:
+   ```
+   python modelConstruction.py
+   ```
+
+3. To observe the result:
+   ```
+   python TestSnake.py
+   ```
 
 ## Deep dive
 
