@@ -81,5 +81,7 @@ then it will move through the y axis.
 
 ### Model and test
 Now with the dataset being available you can run `modeConstruction.py` to build the neural network model.  
-To check the validation accuracy of the model you can take a look at `details.ipynb`.  
-At the final step run `TestSnake.py` to test the snake's performance.
+At the final step run `TestSnake.py` to test the snake's performance.  
+Here is the accuracy of the model:
+
+![plot](https://github.com/mhmdParvari/ML-Snake/assets/103634638/62bf5ccc-9aee-447e-89c1-5405cf73b004)
