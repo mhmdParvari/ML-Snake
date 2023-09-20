@@ -11,4 +11,4 @@ model = tf.keras.models.Sequential([
 model.compile(tf.keras.optimizers.Adam(), 'sparse_categorical_crossentropy', metrics=['accuracy'])
 output = model.fit(data[['x_diff', 'y_diff']], data['direction'], epochs=200)
 
-model.save('model.h5')
+model.save('weights/model.h5')
