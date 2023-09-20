@@ -110,7 +110,7 @@ class Game(arcade.Window):
     def on_key_press(self, key, modifiers: int):
         if key == arcade.key.ESCAPE:
             df = pd.DataFrame(self.train_data, columns=['x_diff', 'y_diff', 'direction'])
-            df.to_csv('directions11.csv', index=False)
+            df.to_csv('directions.csv', index=False)
             self.close()
 
 
