@@ -4,7 +4,7 @@ import tensorflow as tf
 from src.fruit import Fruit
 from src.snake import Snake
 
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('weights/model.h5')
 
 class Game(arcade.Window):
     def __init__(self):
